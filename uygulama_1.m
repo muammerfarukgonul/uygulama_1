@@ -14,7 +14,7 @@ for i=1:375
 end
 %b sikki
 function y=fonksiyon(a,b,n)  % a=alfa b= beta n=gun sayisini belirtir.
-for i=1:3
+for i=1:n
   
     if i==1
        y=a;
@@ -37,7 +37,7 @@ end
 end
 %iterative
 function y=fonksiyon(a,b,n)
-for i=1:3
+for i=1:n
   
     if i==1
        y=a;
@@ -48,7 +48,7 @@ for i=1:3
     end
 end
 %d sikki
-% iki fonksiyonu ayri ayri calistirdigimda computational time recursive =0.023609 hesaplarken
+% iki fonksiyonu ayri ayri calistirdigimda n=3 için computational time recursive =0.023609 hesaplarken
 % itarative =0.000003 hesaplanmistir.
 function y=recursive(n)
 a=100;
@@ -63,7 +63,7 @@ end
 end
 
 function y=fonksiyon(a,b,n)
-for i=1:3
+for i=1:n
   
     if i==1
        y=a;
