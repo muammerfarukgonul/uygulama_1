@@ -1,5 +1,5 @@
 %***   written by muammer faruk gönül   ***
-% a þýkký
+% a sikki
 a1=100;
 b=0.5;
 for i=1:375
@@ -12,8 +12,8 @@ for i=1:375
     end
     t(i)=result;
 end
-%b þýkký
-function y=fonksiyon(a,b,n)  % a=alfa b= beta n=gün sayýsýný belirtir.
+%b sikki
+function y=fonksiyon(a,b,n)  % a=alfa b= beta n=gun sayisini belirtir.
 for i=1:3
   
     if i==1
@@ -23,7 +23,7 @@ for i=1:3
         y=a+(b*y);   
     end
 end
-%c þýkký
+%c sikki
 %recursive 
 function y=recursive(n) 
 a=100;
@@ -47,9 +47,9 @@ for i=1:3
         
     end
 end
-%d þýkký
-% iki fonksiyonu ayý ayrý çalýþtýrdýðýmda computational time recursive =0.023609 hesaplarken
-% itarative =0.000003 hesaplanmýþtýr.
+%d sikki
+% iki fonksiyonu ayri ayri calistirdigimda computational time recursive =0.023609 hesaplarken
+% itarative =0.000003 hesaplanmistir.
 function y=recursive(n)
 a=100;
 b=0.5;
@@ -73,7 +73,7 @@ for i=1:3
         toc;
     end
 end
-% e þýkký
+% e sikki
 a=1/4;
 b=3/5;
 for i=1:20
